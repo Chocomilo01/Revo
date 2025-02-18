@@ -1,6 +1,7 @@
 const adminService = require('../services/adminServices');
 const jwt = require('jsonwebtoken');
-const bcrypt = require('bcrypt');
+const bcrypt = require("bcryptjs");
+
 
 const JWT_SECRET = 'your-secret-key'; // Replace with a secure key and store securely
 
